@@ -1,9 +1,0 @@
-macas = int(input("Digite o número de Maçãs vendidas: "))
-bananas = int(input("Digite o número de Bananas vendidas: "))
-
-if macas > bananas:
-    print("Maçãs foram mais vendidas")
-elif bananas > macas:
-    print("Bananas foram mais vendidas")
-else:
-    print("Foram vendidas a mesma quantidade")
