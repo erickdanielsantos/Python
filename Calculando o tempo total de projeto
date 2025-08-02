@@ -1,0 +1,9 @@
+atA = int(input("Informe os dias para a atividade A: "))
+atB = int(input("Informe os dias para a atividade B: "))
+atC = int(input("Informe os dias para a atividade C: "))
+
+if atA < 0 or atB < 0 or atC < 0:
+    print("Erro: Os dias não podem ser negativos.")
+
+else:
+    print("Tempo total foi de", atA+atB+atC.)
