@@ -1,0 +1,10 @@
+print("Cadrastro")
+
+idade = (input(f'Idade:'))
+
+if idade >= '18':
+    print("Cadatrado")
+
+else:
+    print("Cadastro Invalido:")
+    print("Idade Insuficiente")
