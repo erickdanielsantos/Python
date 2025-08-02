@@ -1,0 +1,14 @@
+print("Calculadora")
+
+n1 = int(input("Digite o primeiro numero: "))
+op = input("Digite o operador (+,-,*,/): ")
+n2 = int(input("Digite o segundo numero: "))
+
+if op == "+":
+    print("Resultado:", n1 + n2)
+elif op == "-":
+    print("Resultado:", n1 - n2)
+elif op == "*":
+    print("Resultado:", n1 * n2)
+elif op == "/":
+    print("Resultado:", n1 / n2)
