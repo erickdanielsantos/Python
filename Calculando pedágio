@@ -1,8 +1,0 @@
-distancia_total = int(input("Digite a distância percorrida (em Km): "))
-
-if distancia_total <= 100:
-    print("Valor do pedágio: R$ 10,00")
-elif 100 < distancia_total <= 200:
-    print("Valor do pedágio: R$ 20,00")
-else:
-    print("Valor do pedágio: R$ 30,00")
